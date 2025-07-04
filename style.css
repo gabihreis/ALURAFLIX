@@ -1,5 +1,5 @@
 body { 
-    background-color: rgb(100, 95, 95);
+    background-color: rgb(58, 53, 53);
     color: goldenrod;
     font-family: "Trebuchet MS", "Comic Sans MS", cursive;
     margin: 0;
@@ -7,15 +7,24 @@ body {
 
 header { 
     font-size: 60px;
-    border-bottom: double 5px yellow;
     padding: 6px;
     text-align: center;
 }
 
 h1 { 
   font-size: 30px;
+  border-bottom: double 5px yellow;
+  text-align: center;
 }
 
 P { 
   font-size: 20px;
+  text-align: center;
+}
+
+iframe, video {
+  display: block;
+  margint: 0 auto;
+  width: 80%;
+  max-width: 700px;
 }
